@@ -1,12 +1,12 @@
 #########################################################################
 # Date de mise en forme : 2016-02-22
-# Bassin mystère n°38 (78.51 km²) - Huanyu ZHAI
+# Bassin mysté‘¢e n?8 (78.51 km? - Huanyu ZHAI
 #------------------------------------------------------------------------
 #  Date  : date (AAAA-MM-JJ)
-#  Q     : débit (l/s)
-#  Ptot  : précipitations (liquides + solides) (mm)
-#  Temp  : température de l'air (°C)
-#  ETP_O : évapotranspiration potentielle de Oudin (mm)
+#  Q     : dé–it (l/s)
+#  Ptot  : pré–ipitations (liquides + solides) (mm)
+#  Temp  : tempé–ature de l'air (ç™ˆ)
+#  ETP_O : é–¢apotranspiration potentielle de Oudin (mm)
 #########################################################################
       Date;        Q;   Ptot;   Temp;  ETP_O
 1958-08-01;       NA;    1.3;   20.7;    4.1
