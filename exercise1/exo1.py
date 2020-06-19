@@ -92,7 +92,7 @@ print(type(df_raw))
 print(df_raw.index)
 
 #整理数据类型
-#将数据类型转化为实践日期类型
+#将数据类型转化为时间日期类型
 df_raw['Date']=pandas.to_datetime(df_raw['Date'])
 
 #将date设置为index
@@ -112,13 +112,20 @@ print(df['1961'])
 print('----------获取1961年5月的数据-------')
 print(df['1961-5'])
 
+
 #利用groupby分组求年平均值
-M=df.groupby(pandas.Grouper(freq='Q')).mean
+M = df_raw.groupby(pandas.Grouper(freq='Y')).mean
 print(M)
 
 
+"""
+#按照年进行统计
+dfY=df_raw.resample ('Y').mean()
+dfY[['Q','Ptot']]=dfY[['Q','Ptot']].applymap()
+#保存年平均数据
+dfY.to_csv('F:\PyPrologue\data\年平均值.csv')
 
-
+"""
 
 
 
